@@ -1,6 +1,6 @@
 Compilado e executado em ambiente Windows através do comando :
 
-ocaml.exe efolio1.ml temperaturas.txt precipitacoes.txt
+ocaml.exe climateIndicators.ml temperaturas.txt precipitacoes.txt
 
 Pré-requisitos e detalhes do ambiente :
 
