@@ -1,3 +1,9 @@
+######
+College work - processing of climate indicators
+
+Trabalho universitário - processamento de indicadores climatéricos
+######
+
 Compilado e executado em ambiente Windows através do comando :
 
 ocaml.exe climateIndicators.ml temperaturas.txt precipitacoes.txt
