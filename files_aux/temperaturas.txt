@@ -1,0 +1,10 @@
+GRANDULA;2018;Temp;Janeiro:9.3;Fevereiro:9.3;Março:10.9;Abril:13.3;Maio:16.2;Junho:19.2;Julho:20.6;Agosto:24.4;Setembro:23.5;Outubro:19.6;Novembro:12.5;Dezembro:8.8;;
+GRANDULA;2017;Temp;Janeiro:7.3;Fevereiro:11.4;Março:12.4;Abril:16.7;Maio:18.7;Junho:22.4;Julho:22.5;Agosto:22.7;Setembro:20.1;Outubro:18.1;Novembro:12.2;Dezembro:10.2;;
+GRANDULA;2016;Temp;Janeiro:7.1;Fevereiro:9;Março:12.5;Abril:15.4;Maio:19.4;Junho:21.8;Julho:22.5;Agosto:22.3;Setembro:19.8;Outubro:18.7;Novembro:13.3;Dezembro:8;;
+GRANDULA;2015;Temp;Janeiro:10.6;Fevereiro:10.1;Março:12.8;Abril:14.8;Maio:17.5;Junho:19.3;Julho:21.6;Agosto:21.7;Setembro:20.6;Outubro:17.1;Novembro:11.3;Dezembro:8.7;;
+GRANDULA;2014;Temp;Janeiro:34.4;Fevereiro:36.3;Março:32.3;Abril:25.3;Maio:22.9;Junho:22.9;Julho:23;Agosto:22.2;Setembro:23;Outubro:22.2;Novembro:21.1;Dezembro:21.1;;
+SERPA;2018;Temp;Janeiro:9.4;Fevereiro:9.3;Março:10.6;Abril:13.1;Maio:15.5;Junho:18.9;Julho:20.3;Agosto:25.9;Setembro:24.4;Outubro:21.5;Novembro:14.7;Dezembro:10.3;;
+SERPA;2017;Temp;Janeiro:9.2;Fevereiro:11.2;Março:12.7;Abril:16.8;Maio:18.9;Junho:23.4;Julho:23.6;Agosto:23.7;Setembro:21.2;Outubro:18.3;Novembro:12.6;Dezembro:11.6;;
+SERPA;2016;Temp;Janeiro:10.9;Fevereiro:9.8;Março:10.8;Abril:13;Maio:15.6;Junho:21.3;Julho:25.5;Agosto:25.2;Setembro:22.7;Outubro:17.2;Novembro:14.3;Dezembro:12.8;;
+SERPA;2015;Temp;Janeiro:8.8;Fevereiro:8.2;Março:12.4;Abril:15.2;Maio:19.6;Junho:22.4;Julho:23.2;Agosto:22.5;Setembro:19.7;Outubro:19.1;Novembro:13.1;Dezembro:8.6;;
+SERPA;2014;Temp;Janeiro:10.1;Fevereiro:9.5;Março:13.1;Abril:14.2;Maio:16.9;Junho:18.7;Julho:21.7;Agosto:21.7;Setembro:20.1;Outubro:17.8;Novembro:11.2;Dezembro:10.3;;

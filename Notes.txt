@@ -1,0 +1,91 @@
+
+(*print_string e ; print_endline "\n" ; print_list l;;
+
+print_list temperaturas;;
+
+| v::subl -> print_string v ; print_endline "\n" ; print_list subl
+print_list l;;
+
+let rec print_list = function [] -> ()
+| e::l -> let listValores = split_on_char ';' e in
+print_list listValores; print_list subl;;
+ 
+  *)
+  
+  
+  
+  
+  
+  
+  
+  
+  let () =
+  for i = 0 to (List.length temperaturas) - 1 do
+    let linhaTemps = (List.nth temperaturas i) in
+    let linhaSplitTemps = split_on_char ';' linhaTemps in
+    let media = ref 0.0 in
+    let maxTemp = ref (-200.0) in
+    let minTemp = ref 200.0 in
+    for j = 0 to (List.length linhaSplit) - 1 do
+      if j = 0 then
+        let subLinha = (List.nth linhaSplit j) in
+        Printf.printf "Cidade : %s " subLinha
+      else if j = 1 then
+        let subLinha = (List.nth linhaSplit j) in
+        Printf.printf "Ano : %s\n" subLinha
+      else if j > 2 && j < 15 then
+        begin
+        let subLinha = (List.nth linhaSplit j) in
+        let valor = split_on_char ':' subLinha in
+        let elem = List.nth valor 1 in
+        if elem <> "n/d" then
+          let valor2 = float_of_string elem in
+          media := !media +. valor2;
+        if valor2 > !maxTemp then maxTemp := valor2;
+        if valor2 < !minTemp then minTemp := valor2;
+        end
+    done;
+    media := !media /. 12.0;
+    Printf.printf "Temp. Media Anual : %f\n" !media;
+    let indicadorIC = !maxTemp -. !minTemp in
+    Printf.printf "Indicador 1 : %f\n\n" indicadorIC;
+  done;
+  for i = 0 to (List.length precipitacoes) - 1 do
+    let linha = (List.nth precipitacoes i) in
+    let linhaSplit = split_on_char ';' linha in
+    let media = ref 0.0 in
+    for j = 0 to (List.length linhaSplit) - 1 do
+      if j = 0 then
+        let subLinha = (List.nth linhaSplit j) in
+        Printf.printf "Cidade : %s " subLinha
+      else if j = 1 then
+        let subLinha = (List.nth linhaSplit j) in
+        Printf.printf "Ano : %s\n" subLinha
+      else if j > 2 && j < 15 then
+        begin
+        let subLinha = (List.nth linhaSplit j) in
+        let valor = split_on_char ':' subLinha in
+        let elem = List.nth valor 1 in
+        if elem <> "n/d" then
+          let valor2 = float_of_string elem in
+          media := !media +. valor2;
+        end
+    done;
+    media := !media /. 12.0;
+    Printf.printf "Precip. Media Anual : %f\n\n" !media;
+  done;;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+        if k = 0 then
+        let subLinhaPrec = (List.nth linhaSplitPrec k) in
+        Printf.printf "Cidade : %s " subLinhaPrec
+      else if k = 1 then
+        let subLinhaPrec = (List.nth linhaSplitPrec k) in
+        Printf.printf "Ano : %s\n" subLinhaPrec
