@@ -1,7 +1,6 @@
 (*
-Author: Bruno Sousa  /adaptado por Ricardo Baptista
-Version: v1.0 2017/11/27
-Description: Programa ilustrativo da abertura e leitura de ficheiros em OCaml
+Author: Pedro Brandao
+Version: v1.0 2019/04/11
 
 *)
 
